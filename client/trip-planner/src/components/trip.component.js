@@ -33,7 +33,8 @@ export default class Trip extends Component {
                                 className="form-control"
                             />
                         </div>
- 
+  
+  
                         <div className="form-group">
                             <label>City: </label>
                             <input type="text"
