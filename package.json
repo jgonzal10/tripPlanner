@@ -1,0 +1,33 @@
+{
+  "name": "tripplanner",
+  "version": "1.0.0",
+  "description": "To Star server\r 1. cd server \r 2. npm install \r 3. npm start",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client/trip-planner && npm start",
+    "server": "nodemon server/index.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgonzal10/tripPlanner.git"
+  },
+  "keywords": [
+    "react",
+    "node"
+  ],
+  "author": "JENNIFER GONZALEZ ALZATE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgonzal10/tripPlanner/issues"
+  },
+  "homepage": "https://github.com/jgonzal10/tripPlanner#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0"
+  }
+}

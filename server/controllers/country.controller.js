@@ -1,10 +1,10 @@
 const {listCountries}= require('../services/country.service')
 
 
-const getListOfCountries = async (req, res, next) => { 
+const getListOfCountries = (req, res, next) => { 
     try {
      
-      let data = await listCountries()
+      let data =  listCountries()
       let countries = data;
       res.json(countries)
       next()

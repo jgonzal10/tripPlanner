@@ -1,2 +1,4 @@
 /server/node_modules
 /client/trip-planner/node_modules
+/node_modules
+/server/.env
